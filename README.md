@@ -12,3 +12,10 @@ This repository will document different technology specific linting configuratio
 # TODO
 - Vue.js
 - Angular
+- PHP v8.1 (Laravel v8) - PHAN
+- .NET
+- Python
+- Swift
+- Kotlin
+- React Native
+- Flutter
