@@ -6,6 +6,7 @@ This repository will document different technology specific linting configuratio
 # Technologies
 
 - [React with TypeScript](react-typescript-eslint.md)
+- [PHP 8.1 (Laravel 8) - PHPCS](php-laravel-phpcs.md)
 
 # TODO
 - Node.js ([Nest.js](https://github.com/nestjs/nest))
