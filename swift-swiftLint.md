@@ -1,7 +1,6 @@
 # Introduction
 
-[SwiftLint](https://github.com/realm/SwiftLint/blob/master/README.md) is a tool by Realm to enforce Swift style and conventions. SwiftLint hooks into Apple’s own SourceKit framework to parse your Swift code, which means it supports the full range of Swift syntax and remains up to date as Swift continues to evolve.
-<br/>It is based on guidelines from the Swift style guide.
+[SwiftLint](https://github.com/realm/SwiftLint/blob/master/README.md) is a tool by Realm to enforce Swift style and conventions. SwiftLint hooks into Apple’s own SourceKit framework to parse your Swift code, which means it supports the full range of Swift syntax and remains up to date as Swift continues to evolve. It is based on guidelines from the Swift style guide.
 <br /><br />
 # Prerequisite
 
@@ -119,13 +118,17 @@ reporter: "xcode" # reporter type (xcode, json, csv, checkstyle, codeclimate, ju
 ```
 
 # Usage
-If you've installed SwiftLint via CocoaPods, then 1. **Select Target** -> 2. **Build Phase** -> 3. **Click on +** -> 4. **Add New Run Script Phase** and <br /> copy & paste below script in Run Script
+If you've installed SwiftLint via CocoaPods, then 
+1. Select Target 
+2. Go to Build Phase 
+3. Click on +
+4. Add New Run Script Phase 
+5. Copy & paste below script in Run Script
 
 ```bash
 "${PODS_ROOT}/SwiftLint/swiftlint"
 ```
-<img width="1200" alt="build-phaseimg" src="https://user-images.githubusercontent.com/6582396/166877073-ec3594d3-c58b-4b4c-89f8-86529092cab8.png">
+<img width="1200" alt="build-phaseimg" src="https://raw.githubusercontent.com/anand00/lint-docs/main/Xcode-runScript.png">
 
-
-* Move the ``Run Script`` above the ``Compile Sources`` step by drag and drop, to detect errors quickly before compiling.
+* Move the `Run Script` above the `Compile Sources` step by drag and drop, to detect errors quickly before compiling.
 * Build the Project now to see warnings and errors 
