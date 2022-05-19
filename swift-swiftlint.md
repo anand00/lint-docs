@@ -13,11 +13,6 @@
 
 # Installation
 
-### Using [Homebrew](http://brew.sh/):
-
-```
-brew install swiftlint
-```
 
 ### Using [CocoaPods](https://cocoapods.org):
 
@@ -128,7 +123,7 @@ If you've installed SwiftLint via CocoaPods, then
 ```bash
 "${PODS_ROOT}/SwiftLint/swiftlint"
 ```
-<img width="1200" alt="build-phaseimg" src="https://raw.githubusercontent.com/anand00/lint-docs/main/Xcode-runScript.png">
+<img width="1200" alt="build-phaseimg" src="assets/Xcode-runScript.png">
 
 * Move the `Run Script` above the `Compile Sources` step by drag and drop, to detect errors quickly before compiling.
 * Build the Project now to see warnings and errors 
