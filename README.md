@@ -8,7 +8,7 @@ This repository will document different technology specific linting configuratio
 - [React with TypeScript](react-typescript-eslint.md)
 - [PHP v8.1 (Laravel v8) - PHPCS](php-laravel-phpcs.md)
 - [Node.Js v16 (NestJs v8)](node-nest-eslint.md)
-- [Swift](swift-swiftLint.md)
+- [Swift](swift-swiftlint.md)
 
 # TODO
 - Vue.js
