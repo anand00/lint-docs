@@ -9,6 +9,7 @@ This repository will document different technology specific linting configuratio
 - [PHP v8.1 (Laravel v8) - PHPCS](php-laravel-phpcs.md)
 - [Node.Js v16 (NestJs v8)](node-nest-eslint.md)
 - [Swift v5.6](swift-swiftlint.md)
+- [Kotlin v1.6.20](kotlin-ktlint.md)
 
 # TODO
 - Vue.js
@@ -16,6 +17,5 @@ This repository will document different technology specific linting configuratio
 - PHP v8.1 (Laravel v8) - PHAN
 - .NET
 - Python
-- Kotlin
 - React Native
 - Flutter
