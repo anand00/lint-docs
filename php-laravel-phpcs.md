@@ -95,25 +95,25 @@ Then add the below configuration in this file.
 			<property name="maxLinesCountBeforeWithComment" value="0"/>
 			<property name="minLinesCountBeforeWithoutComment" value="0"/>
 			<property name="maxLinesCountBeforeWithoutComment" value="0"/>
-		<properties>
+		</properties>
 	</rule>
 	<rule ref="SlevomatCodingStandard.ControlStructures.BlockControlStructureSpacing">
 		<properties>
 			<property name="linesCountBeforeFirst" value="1"/>
 			<property name="linesCountAfterLast" value="1"/>
-		<properties>
+		</properties>
 	</rule>
 	<rule ref="SlevomatCodingStandard.Namespaces.UnusedUses">
 		<properties>
 			<property name="searchAnnotations" value="true"/>
-		<properties>
+		</properties>
 	</rule>
 	<rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses" />
 	<rule ref="SlevomatCodingStandard.Whitespaces.DuplicateSpaces" />
 	<rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing">
 		<properties>
 			<property name="spacesCountBeforeColon" value="0"/>
-		<properties>
+		</properties>
 	</rule>
 	<rule ref="SlevomatCodingStandard.Commenting.DisallowCommentAfterCode" />
 	<rule ref="SlevomatCodingStandard.Commenting.EmptyComment" />
